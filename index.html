@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./chess.css">
+        <title>myChess</title>
+</head>
+
+<body>
+        <div class="tibel">
+                <div data-y="0" data-x='0' id="sq0" class="sq white"><img src="./chess/b4.png" id='rok' class="blackg"
+                                alt="">
+                </div>
+                <div data-y="1" data-x='8' id="sq1" class="sq black"><img src="./chess/b2.png" class="blackg" id="horse"
+                                alt="">
+                </div>
+                <div data-y="2" data-x='16' id="sq2" class="sq white"><img src="./chess/b3.png" id='eleph'
+                                class="blackg" alt=""></div>
+                <div data-y="3" data-x='24' id="sq3" class="sq black"><img src="./chess/b5.png" class="blackg" id='wzer'
+                                alt="">
+                </div>
+                <div data-y="4" data-x='32' id="sq4" class="sq white"><img src="./chess/b6.png" class="blackg"
+                                id='malek' alt="">
+                </div>
+                <div data-y="5" data-x='40' id="sq5" class="sq black"><img src="./chess/b3.png" id='eleph'
+                                class="blackg" alt=""></div>
+                <div data-y="6" data-x='48' id="sq6" class="sq white"><img src="./chess/b2.png" class="blackg"
+                                id="horse" alt="">
+                </div>
+                <div data-y="7" data-x='56' id="sq7" class="sq black"><img src="./chess/b4.png" class="blackg" id='rok'
+                                alt="">
+                </div>
+                <div data-y="8" data-x='1' id="sq8" class="sq black"><img src="./chess/b1.png" class="blackg" id='beydg'
+                                data-action='none' alt="">
+                </div>
+                <div data-y="9" data-x='9' id="sq9" class="sq white"><img src="./chess/b1.png" class="blackg" id='beydg'
+                                data-action='none' alt="">
+                </div>
+                <div data-y="10" data-x='17' id="sq10" class="sq black"><img src="./chess/b1.png" class="blackg"
+                                id='beydg' data-action='none' alt="">
+                </div>
+                <div data-y="11" data-x='25' id="sq11" class="sq white"><img src="./chess/b1.png" class="blackg"
+                                id='beydg' data-action='none' alt="">
+                </div>
+                <div data-y="12" data-x='33' id="sq12" class="sq black"><img src="./chess/b1.png" class="blackg"
+                                id='beydg' data-action='none' alt="">
+                </div>
+                <div data-y="13" data-x='41' id="sq13" class="sq white"> <img src="./chess/b1.png" class="blackg"
+                                id='beydg' data-action='none' alt="">
+                </div>
+                <div data-y="14" data-x='49' id="sq14" class="sq black"><img src="./chess/b1.png" class="blackg"
+                                id='beydg' data-action='none' alt="">
+                </div>
+                <div data-y="15" data-x='57' id="sq15" class="sq white"><img src="./chess/b1.png" class="blackg"
+                                id='beydg' data-action='none' alt="">
+                </div>
+                <div data-y="16" data-x='2' id="sq16" class="sq white"></div>
+                <div data-y="17" data-x='10' id="sq17" class="sq black"></div>
+                <div data-y="18" data-x='18' id="sq18" class="sq white"></div>
+                <div data-y="19" data-x='26' id="sq19" class="sq black"></div>
+                <div data-y="20" data-x='34' id="sq20" class="sq white"></div>
+                <div data-y="21" data-x='42' id="sq21" class="sq black"></div>
+                <div data-y="22" data-x='50' id="sq22" class="sq white"></div>
+                <div data-y="23" data-x='58' id="sq23" class="sq black"></div>
+                <div data-y="24" data-x='3' id="sq24" class="sq black"></div>
+                <div data-y="25" data-x='11' id="sq25" class="sq white"></div>
+                <div data-y="26" data-x='19' id="sq26" class="sq black"></div>
+                <div data-y="27" data-x='27' id="sq27" class="sq white"></div>
+                <div data-y="28" data-x='35' id="sq28" class="sq black"></div>
+                <div data-y="29" data-x='43' id="sq29" class="sq white"></div>
+                <div data-y="30" data-x='51' id="sq30" class="sq black"></div>
+                <div data-y="31" data-x='59' id="sq31" class="sq white"></div>
+                <div data-y="32" data-x='4' id="sq32" class="sq white"></div>
+                <div data-y="33" data-x='12' id="sq33" class="sq black"></div>
+                <div data-y="34" data-x='20' id="sq34" class="sq white"></div>
+                <div data-y="35" data-x='28' id="sq35" class="sq black"></div>
+                <div data-y="36" data-x='36' id="sq36" class="sq white"></div>
+                <div data-y="37" data-x='44' id="sq37" class="sq black"></div>
+                <div data-y="38" data-x='52' id="sq38" class="sq white"></div>
+                <div data-y="39" data-x='60' id="sq39" class="sq black"></div>
+                <div data-y="40" data-x='5' id="sq40" class="sq black"></div>
+                <div data-y="41" data-x='13' id="sq41" class="sq white"></div>
+                <div data-y="42" data-x='21' id="sq42" class="sq black"></div>
+                <div data-y="43" data-x='29' id="sq43" class="sq white"></div>
+                <div data-y="44" data-x='37' id="sq44" class="sq black"></div>
+                <div data-y="45" data-x='45' id="sq45" class="sq white"></div>
+                <div data-y="46" data-x='53' id="sq46" class="sq black"></div>
+                <div data-y="47" data-x='61' id="sq47" class="sq white"></div>
+                <div data-y="48" data-x='6' id="sq48" class="sq white"><img id='beydg' data-action='none' name='whiteg'
+                                class="whiteg" src="./chess/w1.png" alt=""></div>
+                <div data-y="49" data-x='14' id="sq49" class="sq black"><img id='beydg' data-action='none' name='whiteg'
+                                class="whiteg" src="./chess/w1.png" alt=""></div>
+                <div data-y="50" data-x='22' id="sq50" class="sq white"><img id='beydg' data-action='none' name='whiteg'
+                                class="whiteg" src="./chess/w1.png" alt=""></div>
+                <div data-y="51" data-x='30' id="sq51" class="sq black"><img id='beydg' data-action='none' name='whiteg'
+                                class="whiteg" src="./chess/w1.png" alt=""></div>
+                <div data-y="52" data-x='38' id="sq52" class="sq white"><img id='beydg' data-action='none' name='whiteg'
+                                class="whiteg" src="./chess/w1.png" alt=""></div>
+                <div data-y="53" data-x='46' id="sq53" class="sq black"><img id='beydg' data-action='none' name='whiteg'
+                                class="whiteg" src="./chess/w1.png" alt=""></div>
+                <div data-y="54" data-x='54' id="sq54" class="sq white"><img id='beydg' data-action='none' name='whiteg'
+                                class="whiteg" src="./chess/w1.png" alt=""></div>
+                <div data-y="55" data-x='62' id="sq55" class="sq black"><img id='beydg' data-action='none' name='whiteg'
+                                class="whiteg" src="./chess/w1.png" alt=""></div>
+                <div data-y="56" data-x='7' id="sq56" class="sq black"><img name='whiteg' class="whiteg" id='rok'
+                                src="./chess/w4.png" alt=""></div>
+                <div data-y="57" data-x='15' id="sq57" class="sq white"><img name='whiteg' class="whiteg" id='horse'
+                                src="./chess/w2.png" alt="">
+                </div>
+                <div data-y="58" data-x='23' id="sq58" class="sq black"><img name='whiteg' class="whiteg" id='eleph'
+                                src="./chess/w3.png" alt=""></div>
+                <div data-y="59" data-x='31' id="sq59" class="sq white"><img name='whiteg' class="whiteg" id='wzer'
+                                src="./chess/w5.png" alt="">
+                </div>
+                <div data-y="60" data-x='39' id="sq60" class="sq black"><img name='whiteg' class="whiteg" id='malek'
+                                src="./chess/w6.png" alt=""></div>
+                <div data-y="61" data-x='47' id="sq61" class="sq white"><img name='whiteg' class="whiteg" id='eleph'
+                                src="./chess/w3.png" alt="">
+                </div>
+                <div data-y="62" data-x='55' id="sq62" class="sq black"><img name='whiteg' class="whiteg" id='horse'
+                                src="./chess/w2.png" alt=""></div>
+                <div data-y="63" data-x='63' id="sq63" class="sq white"><img name='whiteg' class="whiteg" id='rok'
+                                src="./chess/w4.png" alt="">
+                </div>
+        </div>
+
+
+
+        <script src="./chess.js"></script>
+</body>
+
+</html>
